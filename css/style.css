@@ -1,0 +1,82 @@
+*{ box-sizing: border-box;
+
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+body{
+  background: lightblue;
+}
+.container{
+  width: 30%;
+  height: 500px;
+  margin: 160px 0 0 38%;
+  border: 4px solid gold;
+  border-radius: 20px;
+  box-shadow: 4px 4px 9px 10px rgb(112,187,101);
+  background: url("../img/prideRock.jpg") no-repeat center center;
+}
+header{
+  border-bottom: 2px solid gold;
+}
+h1{
+text-align: center;
+color: white;
+}
+span{
+  padding: 2px 5px;
+  background: rgb(80, 200, 120);
+  border: 1px solid green;
+  border-radius: 20px;
+  color: black;
+}
+.directions{
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+}
+header + section{
+height: 50px;
+}
+header + section p{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+}
+header + section section{
+  float: left;
+  width: 33.3333%;
+  border: 2px solid gold;
+  border-radius: 45px;
+  background: white;
+}
+header + section section p{
+  /* when items in array are picked, in the dom i want them to slowly roll in */
+  float: left;
+  width: 100%;
+  height: 80px;
+}
+footer button{
+  /* make buttons bigger */
+  margin-left: 22%;
+  padding: 2px 5px;
+  background: rgb(80, 200, 120);
+  border: 2px solid green;
+  border-radius: 20px;
+}
+footer button:hover{
+  cursor: pointer;
+  background: rgb(112,187,101);
+}
+h2{
+  text-align: center;
+  font-weight:lighter;
+  color: white;
+}

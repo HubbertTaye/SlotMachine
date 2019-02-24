@@ -1,6 +1,7 @@
 # 🎰 Slot Machine
 
 This slot machine randomizes an array 3 times and displays in the DOM to show the user whether they won or lost money.
+
 **Link to project:**  https://hubberttaye.github.io/SlotMachine/
 
 ![screenshot of simba slots](img/slotmachine.png)
